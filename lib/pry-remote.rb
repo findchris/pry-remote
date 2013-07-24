@@ -133,8 +133,8 @@ module PryRemote
     end
 
     def initialize(object, host = DefaultHost, port = DefaultPort, options = {})
-      @host   = host
-      @port   = port
+      @host    = host
+      @port    = port
       @object  = object
       @options = options
 
